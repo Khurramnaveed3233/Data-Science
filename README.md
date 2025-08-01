@@ -1,12 +1,3 @@
-# Sabse Pehle: Data Science Kya Hai?
-
-Is video mein hum yeh dekhenge:
-
-- Data Science kya cheez hai  
-- AI aur Machine Learning se yeh kaisay alag hai  
-- Is field mein kaam karne ke liye kon kon se skills chahiye  
-
----
 
 ## Data Science Kya Hai?
 
