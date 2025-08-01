@@ -873,4 +873,108 @@ In measures ko samajhna bohot zaroori hai data science mein:
  **Sabse best aur commonly used measure: Correlation**  
 → Kyun ke yeh direction bhi batata hai **aur** taqat bhi.
 
+#  Lecture 8: Data Quality and Data Preprocessing
+
+---
+
+## 1 Data Quality kya hoti hai?
+
+**Data Quality** ka matlab hai ke aapke paas jo data hai wo:
+
+ **Sahi** ho  
+ **Clean** ho  
+ **Reliable** ho  
+
+🌟 Taake uspe Machine Learning model train ho sake jo **accurate predictions** de.
+
+###  Achi Data Quality ki Khasoosiyat:
+
+- **Accuracy**: Ghalat values na ho (e.g., Age = 604 ❌)
+- **Consistency**: Confusing ya conflicting values na ho
+- **No Duplicates**: Ek hi record bar bar na ho
+- **Completeness**: Missing values kam hon
+- **Timeliness**: Data outdated na ho (e.g., address 10 saal purana ❌)
+
+---
+
+## 2 Real Life mein Data ke Maslay
+
+Real-world data often has:
+
+- ❗ **Missing values** (blanks in columns)
+- 🔁 **Duplicate records** (ek hi person multiple times)
+- ❌ **Wrong values** (Age = 800, Weight = -50)
+- 🚫 **Irrelevant features** (jo analysis mein kaam nahi aate)
+
+💡 **Garbage In = Garbage Out**  
+Agar data kharab hoga → model bhi bekaar result dega.
+
+---
+
+## 3 Data Preprocessing – Data ko Behtar Banana
+
+**Preprocessing** ka matlab hai data ko model ke laayak banana.
+
+### Key Steps:
+
+###  A. Data Cleaning:
+
+- Duplicate records hatao  
+- Fazool/irrelevant columns hatao  
+- Missing data ko fill ya remove karo  
+
+###  B. Data Integration:
+
+- Different sources ka data combine karo  
+- e.g., Lab results + DNA report + Patient info → ek table  
+
+###  C. Data Reduction:
+
+- Repeating ya useless features hatao  
+- PCA jese techniques use karo taake kam columns mein zyada info ho  
+
+###  D. Data Transformation:
+
+- Features ko same **scale** par lao  
+- Example:
+    - Age: 1–100  
+    - Income: 1 lakh – 5 crore  
+    → Normalize to 0–1 scale (using Min-Max or Z-score)
+
+ **Normalization** prevents large numbers from biasing the model.
+
+---
+
+## 4 Preprocessing aik dafa ka kaam nahi
+
+Yeh **iterative process** hai — baar baar karni padti hai:
+
+- Kabhi cleaning dobara karni parti hai  
+- Kabhi transformation ke baad feature reduction zaroori hoti hai  
+- Har step revise hota hai jab tak data perfect na ho
+
+---
+
+## 5️⃣ Akhri Baat (Final Thoughts)
+
+Agar data quality achi ho to:
+
+ Model accurate hoga  
+ Predictions reliable hongi  
+ Business problems ka behtar solution milega  
+
+###  Important Preprocessing Steps:
+
+- **Cleaning**
+- **Integration**
+- **Reduction**
+- **Transformation**
+
+ Agar data ghalat hoga → model bhi ghalat seekhega.
+
+---
+
+ **Lesson Summary:**
+Data preprocessing is the **foundation** of successful data science and machine learning.
+
 
