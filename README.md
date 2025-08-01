@@ -1084,105 +1084,70 @@ Agar labeled data hai (e.g., Regular vs Irregular):
 
 ---
 
-#  Lecture 10: Resolving Inconsistent Values
+# Lecture 10: Resolving Inconsistent Values
+
+Pehla masla humne solve kiya tha — missing values ka. Lekin doosra masla bhi tha — inconsistency.  
+Iska matlab hota hai ke data ek jaisa nahi likha gaya. Jaise gym ke data mein "City of Birth" ke andar  
+Lahore likhne ke kai tareeqe hain. Kahin capital letters mein LAHORE, kahin LHR, kahin small letters  
+mein lahore. Ye sab ek hi cheez hain lekin tareeqa alag alag hai — isay kehte hain inconsistent data.  
+
+Agar hum aise data ko model mein daalenge, to system har version ko alag cheez samjhega — jisse asli  
+insight khatam ho jaayegi. Iska solution hai standardization — yani decide karna ke hum Lahore ko  
+sirf "lahore" (small letters mein aur poori spelling ke saath) likhenge.  
+
+Iske liye ek chhoti si script likh lete hain jo har jagah jo bhi variation ho (jaise LHR, lahore, LAHORE),  
+sabko "lahore" mein badal deta hai. Isi tarah Karachi ya Faisalabad ke saath bhi karte hain.  
+
+Dusra tareeqa hota hai validation — jisme hum dekhte hain ke ek record ke do values aapas mein  
+match karti hain ya nahi.  
+
+Jaise ek member ki Date of Birth se calculate ki gayi age 30 saal banti hai, lekin record mein likha hua  
+hai 45 saal. Yani mismatch hai. Phir hum decide karte hain ke hum kis value ko trust karenge —  
+calculated age ya written age? Ye decide karne ke baad hum data ko clean kar lete hain.  
+
+Agla masla hota hai duplicate data ka — yani ek hi banda ka data system mein 2 dafa aa gaya. Ye  
+kabhi kabhi hota hai jab form 2 dafa submit ho jaye ya kisi wajah se system mein ek hi cheez 2 dafa  
+store ho jaaye.  
+
+Agar humne member ID unke CNIC pe banayi ho to duplicate pakarna easy hota hai — kyunke CNIC  
+duplicate nahi hota. Lekin agar humne apne tareeqe se random ID di ho jaise "CYS13" waghera, to phir  
+humein dekhna padega:  
+
+- Kya name same hai?  
+- Kya age, weight, aur dusri cheezen match karti hain?  
+
+Agar sab cheezen match karti hain to shayad wo duplicate ho sakta hai. Nahi to nahi.  
+
+Uske baad aata hai noisy ya inaccurate data — yani galat ya bekar data. Jaise kisi bande ki age likhi ho  
+270 saal ya 573 saal — jo clearly possible nahi.  
+
+Aise data ko outlier kehte hain. Hum decide karte hain ke gym ka member 18 se 60 saal ke darmiyan  
+hoga. Is range ke bahar koi bhi age ho to hum usay galat ya suspicious maanenge.  
+
+Aise outliers ko ya to delete karte hain, ya unko "missing value" bana ke fill karne ki techniques lagate  
+hain jaise humne missing data ke case mein kiya tha.  
+
+Aakhri aur important masla hota hai stale data — yani purana data jo update nahi hua. Jaise kisi  
+member ka address 10 saal pehle ka ho. Agar hum us address pe email ya brochure bhejenge to shayad  
+wo banda wahan na ho.  
+
+To hum check karte hain ke last updated kab hua tha? Agar 2 saal se zyada guzr chuke hain to samajh  
+jaate hain ke wo data purana hai. Hum sirf un logon ko contact karte hain jinka data recent hai.  
 
 ---
 
-##  Problem Recap:
+To dosto, is puri discussion mein humne yeh seekha:  
 
-Last time we handled **missing values**.  
-Today we address the second major issue: **Inconsistent Data**
+- Missing values kaise handle karte hain  
+- Inconsistent data ko kaise standardize karte hain  
+- Duplicate records kaise identify karte hain  
+- Noisy ya outlier data ko kaise clean karte hain  
+- Stale data kaise detect aur manage karte hain  
 
----
+Ye sab cheezein milke data ko accurate, saaf aur useful banaati hain — jisse hum real world problems  
+ko solve kar sakte hain.  
 
-## ❌ What is Inconsistent Data?
-
-Data that **represents the same thing in different formats**.
-
-### Example: City of Birth
-- "LAHORE", "lahore", "LHR"  
-⚠️ All mean Lahore but written differently → system treats them as different!
-
-###  Solution: **Standardization**
-Convert all variations into **one standard format**, e.g.:
-- All → "lahore" (lowercase, full spelling)
-
- Use **script or function** to replace all city names consistently.
-
----
-
-## 🛠 Additional Cleaning Concepts
-
-###  1. **Validation Errors**
-- Example: Age calculated from DOB is 30 but written age is 45 → mismatch
--  Decide which one to trust: Calculated vs. Recorded
-- Then clean the data
-
----
-
-###  2. **Duplicate Records**
-
-Happens when same member is entered twice.
-
-🧾 Detect by:
-- Checking if CNIC is same (ideal case)
-- If CNIC not available → match by:
-  - Name
-  - Age
-  - Weight
-  - Address
-
- If all match → likely duplicate → remove one
-
----
-
-### 📉 3. **Noisy / Outlier Data**
-
-Example:
-- Age: 270 or 573 years → ❌ clearly wrong
-
- These are called **outliers**
-
- Strategy:
-- Define realistic range → e.g. age 18–60
-- Remove or treat as **missing** and fill using techniques from Lecture 9
-
----
-
-###  4. **Stale Data**
-
-Old/unupdated records.
-
-Example:
-- Address last updated 10 years ago
-- We shouldn’t send emails to outdated addresses
-
- Check: **Last Updated Date**
-- If >2 years old → treat as **stale**
-- Only contact those with **recent data**
-
----
-
-##  Summary of Cleaning Steps
-
-| Issue               | Strategy                         |
-|--------------------|----------------------------------|
-| Inconsistent Data  | Standardize values               |
-| Validation Errors  | Cross-check calculated vs stored |
-| Duplicates         | Match by key fields (e.g. CNIC)  |
-| Outliers / Noisy   | Define valid range; clean outliers |
-| Stale Data         | Use last updated date to filter  |
-
----
-
-##  Final Thoughts
-
-Accurate and clean data is the foundation of any useful analysis or model.  
-Without cleaning, even the best model will fail.
-
-Next up: **Data Integration** 🔗  
-Until then, **Khuda Hafiz** — Duaon mein yaad rakhiye. 🌙
-
-
-
+Agle lecture mein hum data integration ke baare mein baat karenge.  
+Tab tak khuda hafiz aur duaon mein yaad rakhiye.  
+InshaAllah phir mulaqat hogi.
 
