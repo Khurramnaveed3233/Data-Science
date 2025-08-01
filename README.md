@@ -550,12 +550,12 @@ Yeh value data ka **balance point** hoti hai.
 ###  Kya Hai?
 Sab values ko jod kar, total number se **divide** kar dete hain.
 
-📊 **Example:**
+ **Example:**
 - 4 log kama rahe hain 100,000  
 - 1 banda kama raha hai 2,000,000  
 - **Average salary:** (4 × 100,000 + 2,000,000) / 5 = 4.8 lakh  
 
-⚠️ **Masla:**  
+ **Masla:**  
 Outliers (bohot zyada ya kam values) mean ko **disturb** kar dete hain.
 
 ---
@@ -762,3 +762,115 @@ Is se aap:
 - Beech wali value samajh sakte ho  
 - Data ka **shape aur balance** dekh sakte ho  
 - **Preprocessing** (data ko tayar karna) asaani se kar sakte ho
+
+# Lecture 7: Introduction to Proximity & Similarity
+
+## Proximity ya Similarity Measures kya hotay hain?
+
+Data Science mein jab hum kisi dataset ke do features ya attributes ke darmiyan taluk ya similarity samajhna chahtay hain, to hum **proximity** ya **similarity measures** use kartay hain.
+
+Yeh measures humein yeh batatay hain:
+
+- Do cheezain kitni milti julti hain  
+- Kya unka direction ya trend ek jaisa hai  
+- Kya wo dono sath barhti ya kam hoti hain  
+
+---
+
+## 1. Dot Product
+
+### Kya hota hai?
+
+Dot product aik **mathematical** tareeqa hai jo batata hai ke do vectors (features) ka **direction** kitna same hai.
+
+### Simple Example:
+
+Do log aik gari ko dhakka day rahay hain:
+
+- Aik agay se aur aik peechay se → koi move nahi → dot product = `0`  
+- Dono aik hi side se dhakka den to gari chalti hai → dot product **positive**
+
+### Downside:
+
+- Dot product **magnitude** pe depend karta hai.  
+- Agar values ka size ya unit change ho jaye to result bhi change ho jata hai.
+
+---
+
+## 2. Cosine Similarity
+
+### Kya hota hai?
+
+Cosine similarity direction ko measure karta hai **baghair magnitude ke**.  
+Sirf yeh dekhta hai ke direction match karta hai ya nahi.
+
+### Range:
+
+- `1` → Bilkul same direction  
+- `0` → Bilkul different (orthogonal)  
+- `-1` → Opposite direction  
+
+### Example:
+
+Temperature aur ice cream ki sales — dono barhtay hain sath sath → similarity high (close to `1`)
+
+### Downside:
+
+- Yeh sirf **direction** batata hai, lekin **taalluq ki taqat (strength)** nahi batata.
+
+---
+
+## 3. Covariance
+
+### Kya hota hai?
+
+Covariance dekhta hai ke do variables **ek sath barhtay ya ghat’tay** hain ya nahi.
+
+- Dono sath barhtay hain → **Positive covariance**  
+- Aik barhta aur doosra ghat’ta hai → **Negative covariance**
+
+### Example:
+
+Temperature barhne se ice cream sales bhi barhti hain → covariance **positive**
+
+### Downside:
+
+- Sirf **direction** batata hai, lekin **relation ki taqat** nahi.
+
+---
+
+## 4. Correlation
+
+### Kya hota hai?
+
+**Correlation** covariance ka upgraded version hai jo direction ke sath sath **strength** bhi batata hai.
+
+### Range:
+
+- `1` → Perfect positive relation  
+- `0` → Koi relation nahi  
+- `-1` → Perfect negative relation  
+
+### Use Cases:
+
+- Features ka taluk samajhne ke liye  
+- Feature selection aur dimensionality reduction mein  
+
+### Example:
+
+Agar temperature barhne par sales **consistently** barhti hain → strong **positive correlation**
+
+---
+
+## Final Baat
+
+In measures ko samajhna bohot zaroori hai data science mein:
+
+- Aap samajh sakte hain ke kaunsi cheez kis cheez se kitni related hai  
+- Data ko better analyze aur clean kar sakte hain  
+- Model training mein better decisions le sakte hain  
+
+ **Sabse best aur commonly used measure: Correlation**  
+→ Kyun ke yeh direction bhi batata hai **aur** taqat bhi.
+
+
