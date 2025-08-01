@@ -165,3 +165,206 @@ Har step important hai:
 Jab aap yeh sab achi tarah seekh lein to aap **kisi bhi mushkil maslay ko data ki madad se solve kar sakte hain**.
 
 
+# 📚 Lecture 2: Understanding Types of Attributes (Data)
+
+---
+
+## 📦 Data Object aur Uske Features
+
+Data Science mein hum aise data ke sath kaam karte hain jo **table ki shakal** mein hota hai:
+
+- **Rows (Satrain):** Har row ek shakhs, cheez ya record ko dikhati hai  
+- **Columns (Ustoon):** Har column us shakhs ya cheez ke kisi aik pehlu (feature) ko dikhata hai  
+
+**Example:**  
+Agar logon ka data ho to:
+
+- Har row = ek banda  
+- Har column = jaise height, weight, job, hair color waghera
+
+---
+
+## 🧬 Attributes (Data ke Types)
+
+Data ke features alag alag qisam ke ho sakte hain:
+
+---
+
+### 🔸 Nominal Attributes (Naam Wale)
+
+- Sirf naam ya label hotay hain  
+- Example: Hair Color → Black, Brown, Red  
+- Koi order nahi hota  
+- In pe math ke formulas (add, subtract) apply nahi hote  
+
+---
+
+### 🔸 Binary Attributes (2 Options Wale)
+
+- Sirf do options hotay hain  
+- Example: Male/Female, Smoker/Non-Smoker  
+- Coding mein aksar 0 aur 1 use hotay hain  
+- Kabhi dono values important hoti hain (e.g., gender)  
+- Kabhi ek value zyada important hoti hai (e.g., COVID positive)
+
+---
+
+## 🛠️ Data Ka Tayyari Ka Amal (Data Preparation)
+
+Data analysis shuru karne se pehle 2 kaam zaroori hain:
+
+---
+
+### 🔍 1. Data Samajhna (EDA - Exploratory Data Analysis)
+
+- Data kis type ka hai?  
+- Missing values hain?  
+- Koi value ajeeb to nahi lag rahi?  
+- Columns ka aapas mein link hai?
+
+---
+
+### 🧹 2. Data Saaf Karna (Cleaning)
+
+- Galat/missing data theek karna  
+- Values ko standard form mein lana  
+- Data ko model ke liye tayyar banana
+
+---
+
+## 🧱 Attributes ko Samajhna
+
+Data ke **columns = attributes/features/variables** — ye teenon lafz aik hi cheez ke liye use hote hain.
+
+**Example:**
+
+- Naam: Ahmed  
+- Height: 5'9"  
+- Weight: 150  
+- Hair Color: Brown  
+
+Yeh sab us shakhs ke attributes hain. Puri row milke **data object** kehlati hai.
+
+---
+
+## 🔚 Aakhri Baat (Final Thoughts)
+
+Data Science mein kaam karne ke liye zaroori hai:
+
+- Data ka structure samajhna  
+- Har attribute ka matlab samajhna  
+- Data ko saaf karna  
+- Analysis/model ke liye use karna  
+
+Chahe attributes **nominal** hoon ya **binary**, unka role important hota hai.  
+Agar yeh steps samajh lein to kisi bhi data se useful insights nikaale ja sakte hain.
+
+---
+
+# 🧩 Types of Attributes
+
+---
+
+## 🟡 Nominal Attributes (Naam Wale Features)
+
+**Kya hota hai?**  
+Sirf naam ya label batate hain — inka koi order nahi hota
+
+**Example:**  
+- Hair color: Black, Brown, Red, White
+
+**Khaas Baat:**  
+- Inmein choti ya bari value nahi hoti  
+- Add/subtract nahi kar sakte  
+- Sirf frequency dekhte hain (kitne logon ke baal black hain)
+
+---
+
+## ⚫ Binary Attributes (2 Options Wale)
+
+**Kya hota hai?**  
+Sirf do hi values hoti hain
+
+**Examples:**  
+- Gender: Male ya Female  
+- COVID: Positive ya Negative  
+- Smoking: Smoker ya Non-smoker
+
+**Khaas Baat:**  
+- 2 hi choices hoti hain  
+- Kabhi dono barabar important  
+- Kabhi aik value zyada important hoti hai  
+- Frequency count kar sakte hain
+
+---
+
+## 🟠 Ordinal Attributes (Order Wale)
+
+**Kya hota hai?**  
+Values ka order hota hai, lekin exact difference nahi hota
+
+**Example:**  
+- Education Level: Junior, Assistant Professor, Associate Professor, Professor
+
+**Khaas Baat:**  
+- Order hota hai (choti se badi taraf)  
+- Lekin har level ka fark barabar nahi hota  
+- Mode, median find kiya ja sakta hai  
+- Rangon mein convert kar sakte hain (e.g., Temperature → Low, Medium, High)
+
+---
+
+## 🔵 Numeric Attributes (Number Wale)
+
+**Yeh wo features hain jo numbers mein hote hain** — math ke formulas apply hote hain.
+
+### ➤ Interval-Scaled
+
+**Example:** Temperature (e.g., 20°C, 30°C)
+
+**Khaas Baat:**
+
+- Zero ka matlab “kuch bhi nahi” nahi hota  
+- Gaps barabar hote hain  
+- Add/subtract meaningful hote hain
+
+### ➤ Ratio-Scaled
+
+**Example:** Height, Weight, Experience
+
+**Khaas Baat:**
+
+- Zero ka matlab hota hai “bilkul nahi”  
+- 2 meter = 1 meter se double  
+- Sab math operations apply hote hain
+
+---
+
+## 🔢 Discrete vs Continuous Attributes
+
+### ➤ Discrete:
+
+- Sirf **whole numbers** hote hain  
+- Example: Number of children → 1, 2, 3…
+
+### ➤ Continuous:
+
+- **Decimal values** bhi ho sakti hain  
+- Example: Height → 5.6, Weight → 60.3
+
+---
+
+## ✅ Final Thoughts
+
+Data Science mein kaam karte waqt samajhna zaroori hai:
+
+- Kis type ka data hai  
+- Har type ke data ke sath kaise kaam karna hai  
+- Kya math apply hoti hai?  
+- Kya order hai ya sirf naam?
+
+Jab yeh concepts clear ho jaayein to:
+
+- Data cleaning  
+- Analysis  
+- Aur modeling — sab asaan ho jaata hai.
