@@ -47,11 +47,11 @@ Data Science ka process kuch is tarah hota hai:
 
 **Umeed hai ab aapko ek basic idea mil gaya hoga ke Data Science kya hoti hai aur ismein kya kya seekhna hota hai.**
 
-# 📊 Overview of Data Science Process
+# Overview of Data Science Process
 
 ---
 
-## 🧠 Data Science Kya Hai?
+##  Data Science Kya Hai?
 
 Data Science ek aisi field hai jisme hum **data ka istemal karke masail ka hal nikalte hain**.
 
@@ -63,13 +63,13 @@ Isme kuch important cheezein hoti hain jaise:
 
 ---
 
-## ⚙️ Data Science Ka Kaam Kis Tarah Hota Hai?
+##  Data Science Ka Kaam Kis Tarah Hota Hai?
 
 Yeh kaam kuch **important stages** mein hota hai. Har step ka apna maqsad hota hai. Neeche unka asaan tareeqa se zikr hai:
 
 ---
 
-### 1. 🔍 Maslay Ko Samajhna (Problem Formulation)
+### 1.  Maslay Ko Samajhna (Problem Formulation)
 
 Sabse pehle yeh sochte hain ke:
 
@@ -86,7 +86,7 @@ Agar hum **ghar ki price ka andaza** lagana chahtay hain to:
 
 ---
 
-### 2. 📥 Data Ikatha Karna (Data Acquisition)
+### 2.  Data Ikatha Karna (Data Acquisition)
 
 Jab masla samajh ajaye, to phir **data dhoondhna** hota hai.
 
@@ -98,7 +98,7 @@ Data mil sakta hai:
 
 ---
 
-### 3. 🧹 Data Tayyar Karna (Data Preparation)
+### 3.  Data Tayyar Karna (Data Preparation)
 
 Is stage mein 2 kaam hote hain:
 
@@ -116,7 +116,7 @@ Is stage mein 2 kaam hote hain:
 
 ---
 
-### 4. 🧮 Data Ka Analysis Karna (Data Analysis & Modeling)
+### 4.  Data Ka Analysis Karna (Data Analysis & Modeling)
 
 Ab hum **models banate hain** jo data ko samajh kar results nikalte hain:
 
@@ -127,7 +127,7 @@ Ab hum **models banate hain** jo data ko samajh kar results nikalte hain:
 
 ---
 
-### 5. 📈 Natijay Samjhana aur Dikhana (Communication & Visualization)
+### 5.  Natijay Samjhana aur Dikhana (Communication & Visualization)
 
 Model ke baad natija **non-technical logon** ko dikhana hota hai (e.g., CEO, manager).
 
@@ -141,11 +141,11 @@ Iske liye hum use karte hain:
 - Python libraries (e.g., Matplotlib, Seaborn)  
 - Power BI, Tableau  
 
-🎯 **Most important skill:** Achi **communication** — taake log aapki baat asaani se samajh saken.
+**Most important skill:** Achi **communication** — taake log aapki baat asaani se samajh saken.
 
 ---
 
-## 🏁 Aakhri Baat
+##  Aakhri Baat
 
 **Data Science aik complete process hai** jo:
 
