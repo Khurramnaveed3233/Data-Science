@@ -977,4 +977,121 @@ Agar data quality achi ho to:
  **Lesson Summary:**
 Data preprocessing is the **foundation** of successful data science and machine learning.
 
+#  Lecture 9: Data Cleaning
+
+---
+
+##  Recap of Previous Lecture (Preprocessing Steps):
+
+1. **Data Cleaning** – Data ko saaf aur sahi banana  
+2. **Data Integration** – Alag sources ka data combine karna  
+3. **Data Reduction** – Extra ya irrelevant features ko kam karna  
+4. **Data Transformation** – Data ko readable aur model-friendly banana
+
+👎 Poor data quality → Poor model performance  
+👍 Good data quality → Better predictions
+
+---
+
+## 🧹 What is Data Cleaning?
+
+Data Cleaning mein aap **detective** ki tarah kaam karte ho:
+
+### 🔍 Detect Problems:
+
+- Kahan values **missing** hain?
+- Kya koi values **incorrect** ya **confusing** hain?
+- Kya koi **row/column** purana ya **useless** hai?
+
+---
+
+##  Example: Gym Membership Data
+
+Columns:
+
+- Member ID
+- Age
+- Weight
+- Profession
+- Address
+- Favourite Machine
+- Join Date
+- City, etc.
+
+---
+
+## Types of Missing Data Scenarios:
+
+###  Scenario 1: **Row-wise Missing Data**
+
+Aisi rows jahan 90% data missing ho (sirf ID ya naam ho):
+
+ **Action**: Delete kar do (agar 5–10% total rows hain)
+
+---
+
+###  Scenario 2: **Column-wise Missing Data**
+
+Agar kisi column (e.g., "Favourite Machine") mein 90–95% values missing hain:
+
+ **Action**: Useless column → **Drop kar do**
+
+---
+
+###  Scenario 3: **Partially Missing Data**
+
+Agar kisi column mein sirf 5–10% values missing hain:
+
+### ✏ **How to Fill Missing Values?**
+
+####  Method 1: Fill with **Constant value**
+
+- Numeric column: -1
+- Categorical column: "None"
+
+ Downside: Model galat pattern seekh sakta hai
+
+####  Method 2: Fill with **Mean / Median / Mode**
+
+- **Mean**: If data is symmetric
+- **Median**: If data is skewed
+- **Mode**: For categorical data
+
+ Example:  
+Agar kisi ka weight missing hai → sab ka average weight usko assign kar do
+
+#### 🔸 Method 3: **Group-wise Imputation**
+
+Agar labeled data hai (e.g., Regular vs Irregular):
+
+➡ Regular members ka average → regular member ke missing value mein  
+➡ Irregular members ka average → irregular member ke liye
+
+---
+
+##  Summary: Data Cleaning Tips
+
+| Situation                       | Action                     |
+|--------------------------------|----------------------------|
+| Row with 90% missing data      | Delete                    |
+| Column with 90–95% missing     | Delete                    |
+| Few missing values             | Fill with:                |
+|                                | - Constant (e.g., -1, "None") |
+|                                | - Mean / Median / Mode     |
+|                                | - Group-wise average       |
+
+ Har dataset different hota hai → **Experimentation is important**
+
+---
+
+##  Final Tip
+
+Agar aur advanced cleaning techniques seekhna chahte ho:  
+Use tools like **ChatGPT**, **sklearn**, or **pandas** in Python for:
+
+- Imputation
+- Outlier detection
+- Noise handling
+- Scaling, etc.
+
 
