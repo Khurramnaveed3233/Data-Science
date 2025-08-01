@@ -517,3 +517,126 @@ Data ko analyse karne ka **pehla qadam** hai uska **basic statistical descriptio
 - Features aapas mein kitne related hain (**Similarity**)
 
  **Yeh foundation hoti hai Data Science ke aage ke topics samajhne ke liye.**
+
+# 📚 Lecture 5: Measures of Central Tendency
+
+---
+
+##  Central Tendency Kya Hoti Hai?
+
+**Central Tendency** ka matlab hai data ka wo number jo **beech mein** hota hai:
+
+- 50% data is number se **neeche** hota hai  
+- 50% data is number se **upar** hota hai  
+
+Yeh value data ka **balance point** hoti hai.
+
+ **Example:** Jab hum logon ki **height** ya **salary** dekhte hain, zyadatar values ek beech wale number ke ird gird hoti hain.
+
+---
+
+##  Central Tendency ke Common Tareeqe
+
+1. **Mean** (Average)  
+2. **Median** (Beech wala number)  
+3. **Mode** (Sabse zyada baar aane wali value)  
+4. **Trimmed Mean** (Outlier hata ke average)  
+5. **Mid-Range** (Min + Max ka average)
+
+---
+
+## 1.  Mean (Average)
+
+###  Kya Hai?
+Sab values ko jod kar, total number se **divide** kar dete hain.
+
+📊 **Example:**
+- 4 log kama rahe hain 100,000  
+- 1 banda kama raha hai 2,000,000  
+- **Average salary:** (4 × 100,000 + 2,000,000) / 5 = 4.8 lakh  
+
+⚠️ **Masla:**  
+Outliers (bohot zyada ya kam values) mean ko **disturb** kar dete hain.
+
+---
+
+## 2.  Trimmed Mean
+
+###  Kya Hai?
+Extreme (bahut choti ya badi) values **hata kar** average nikaala jata hai.
+
+ **Example:**  
+Agar aik value bohot high hai (jaise 2 million), to usay hata ke baqi values ka mean liya jata hai.
+
+ **Tip:**  
+Sirf **2% data** tak hi trim karna chahiye.
+
+---
+
+## 3.  Median
+
+### ✅ Kya Hai?
+Sorted list ka **beech wala number** hota hai.
+
+📊 **Examples:**
+- `[2, 4, 6, 8, 10]` → **Median = 6**  
+- `[2, 4, 6, 8]` → **Median = (4 + 6) / 2 = 5**
+
+✅ **Faida:**  
+Outliers ka asar nahi hota  
+❌ **Nuksan:**  
+Data ko **sort** karna padta hai (large datasets mein slow)
+
+---
+
+## 4.  Mode
+
+###  Kya Hai?
+Jo value **sabse zyada baar repeat** hoti hai.
+
+ **Example:**
+- 10 log ki height = 5'8"  
+- 9 log ki height = 6'1"  
+- **Modes:** 5'8" and 6'1" → **Multimodal data**
+
+ **Faida:**  
+**Non-numeric data** ke liye bhi kaam karta hai (e.g., city names, colors)
+
+---
+
+## 5.  Mid-Range
+
+###  Kya Hai?
+**(Minimum + Maximum) / 2**
+
+📌 Sirf ek **jaldi andaza** lagane ke liye use hota hai  
+❌ **High accuracy** ke liye nahi hota
+
+---
+
+##  Central Tendency Se Kya Samajh Aata Hai?
+
+Yeh measures batate hain ke data ka **shape** kaisa hai:
+
+| Relationship               | Distribution Type       |
+|---------------------------|--------------------------|
+| Mean ≈ Median ≈ Mode       | Symmetric (Balanced)     |
+| Mode < Median < Mean       | Positive Skew (Right)    |
+| Mean < Median < Mode       | Negative Skew (Left)     |
+
+ **Example:**
+Agar aap ke paas **10,000 rows** ka data hai aur graph banana mushkil hai, to:
+- **Mean, Median, Mode** nikaal lo
+- Compare karo → **data skewed hai ya balanced**
+
+---
+
+##  Final Baat
+
+**Central Tendency** data science ka **pehla aur basic qadam** hai:
+
+Is se aap:
+
+- Beech wali value samajh sakte ho  
+- Data ka **shape aur balance** dekh sakte ho  
+- **Preprocessing** (data ko tayar karna) asaani se kar sakte ho
