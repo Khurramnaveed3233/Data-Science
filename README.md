@@ -635,6 +635,128 @@ Agar aap ke paas **10,000 rows** ka data hai aur graph banana mushkil hai, to:
 
 **Central Tendency** data science ka **pehla aur basic qadam** hai:
 
+# Lecture 6: Measure of Dispersion
+
+## Dispersion ka matlab kya hota hai?
+
+Data analysis mein **dispersion** ka matlab hai ke data kitna faila hua ya gathha hua hai apne beech ke number ke aas paas. Is se humein yeh pata chalta hai ke:
+
+- Data consistent hai ya nahi  
+- Sab values ek jaisi hain ya alag alag  
+- Decision lena aur prediction karna kitna asaan hoga  
+
+Agar aapko data ka spread samajh aa jaye to aap zyada ba-himmat aur sahi faislay le sakte hain.
+
+---
+
+## Basic Concepts: Central Tendency aur Dispersion
+
+- **Central Tendency**: Data ka beech ka number — jaise *mean*, *median*, ya *mode*  
+- **Dispersion**: Data us beech ke number ke aas paas kitna faila hua hai
+
+---
+
+## Quartiles aur IQR kya hote hain?
+
+- **Quartiles**: Data ko 4 barabar hisson mein divide karne wale points
+  - **Q1**: 25% data is se neeche hota hai  
+  - **Q2**: 50% data ka beech (*median*)  
+  - **Q3**: 75% data is se neeche hota hai  
+
+- **IQR (Interquartile Range)**:  
+  `IQR = Q3 - Q1` → beech ke 50% data ka spread  
+  - Chhota IQR → data gathha hua hai  
+  - Bara IQR → data faila hua hai  
+
+---
+
+## 5-Number Summary
+
+Yeh 5 numbers data ka full snapshot dete hain:
+
+1. Minimum value (sabse chhoti value)  
+2. Q1  
+3. Median (Q2)  
+4. Q3  
+5. Maximum value (sabse badi value)
+
+---
+
+## Data Symmetry aur Skewness
+
+- **Symmetric Data**:  
+  Q1, Q2, Q3 ka distance barabar hota hai  
+- **Skewed Data**:  
+  Agar left ya right side zyada faili hui ho  
+
+---
+
+## Box and Whisker Plot kya hai?
+
+Yeh aik visual graph hota hai jo upar wale 5-number summary ko dikhata hai:
+
+- **Box** → Q1 se Q3 tak ka data (IQR)  
+- **Line in box** → Median  
+- **Whiskers** → Box ke bahar ka range  
+- **Dots** → Outliers (jo data se bohot zyada alag hain)
+
+---
+
+## Outliers kaise nikaalte hain?
+
+- **Lower Bound** = `Q1 – 1.5 × IQR`  
+- **Upper Bound** = `Q3 + 1.5 × IQR`  
+
+---
+
+## Standard Deviation aur Variance kya hoti hai?
+
+Yeh dono cheezein tab use hoti hain jab **mean** ko central value maana jaye:
+
+- **Standard Deviation (SD)**:  
+  Batata hai ke har value mean se kitni door hai  
+  - Jitni badi SD, utna zyada spread  
+
+- **Variance**:  
+  Har value ka mean se difference square karke average nikaalte hain  
+
+---
+
+## Kab kaunsa use karein?
+
+| Situation            | Tool                         |
+|----------------------|------------------------------|
+| Median center ho     | Quartiles, IQR, Box Plot     |
+| Mean center ho       | Standard Deviation, Variance |
+
+---
+
+## Practical Example
+
+Aap ke paas games ki yearly sales ka data hai:
+
+- **IQR** batayega ke beech ke 50% games ka sales kitna vary karta hai  
+- **Box Plot** dikhayega koi extreme value (outlier) hai ya nahi  
+- Agar koi game bohot zyada bika ho, to **outlier** hoga  
+
+---
+
+## Real Life Mein:
+
+Outliers nikaal kar aap marketing ya quality problems samajh sakte ho.
+
+---
+
+## Final Baat
+
+**Dispersion** aapko yeh samajhne mein madad karta hai:
+
+- Data gathha hua hai ya spread hai  
+- Outliers kahan hain  
+- Data symmetric hai ya nahi  
+- Kis tarah ka model ya tool use karna chahiye  
+
+
 Is se aap:
 
 - Beech wali value samajh sakte ho  
