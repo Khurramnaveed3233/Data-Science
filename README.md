@@ -1084,14 +1084,105 @@ Agar labeled data hai (e.g., Regular vs Irregular):
 
 ---
 
-##  Final Tip
+#  Lecture 10: Resolving Inconsistent Values
 
-Agar aur advanced cleaning techniques seekhna chahte ho:  
-Use tools like **ChatGPT**, **sklearn**, or **pandas** in Python for:
+---
 
-- Imputation
-- Outlier detection
-- Noise handling
-- Scaling, etc.
+##  Problem Recap:
+
+Last time we handled **missing values**.  
+Today we address the second major issue: **Inconsistent Data**
+
+---
+
+## ❌ What is Inconsistent Data?
+
+Data that **represents the same thing in different formats**.
+
+### Example: City of Birth
+- "LAHORE", "lahore", "LHR"  
+⚠️ All mean Lahore but written differently → system treats them as different!
+
+###  Solution: **Standardization**
+Convert all variations into **one standard format**, e.g.:
+- All → "lahore" (lowercase, full spelling)
+
+ Use **script or function** to replace all city names consistently.
+
+---
+
+## 🛠 Additional Cleaning Concepts
+
+###  1. **Validation Errors**
+- Example: Age calculated from DOB is 30 but written age is 45 → mismatch
+-  Decide which one to trust: Calculated vs. Recorded
+- Then clean the data
+
+---
+
+###  2. **Duplicate Records**
+
+Happens when same member is entered twice.
+
+🧾 Detect by:
+- Checking if CNIC is same (ideal case)
+- If CNIC not available → match by:
+  - Name
+  - Age
+  - Weight
+  - Address
+
+ If all match → likely duplicate → remove one
+
+---
+
+### 📉 3. **Noisy / Outlier Data**
+
+Example:
+- Age: 270 or 573 years → ❌ clearly wrong
+
+ These are called **outliers**
+
+ Strategy:
+- Define realistic range → e.g. age 18–60
+- Remove or treat as **missing** and fill using techniques from Lecture 9
+
+---
+
+###  4. **Stale Data**
+
+Old/unupdated records.
+
+Example:
+- Address last updated 10 years ago
+- We shouldn’t send emails to outdated addresses
+
+ Check: **Last Updated Date**
+- If >2 years old → treat as **stale**
+- Only contact those with **recent data**
+
+---
+
+##  Summary of Cleaning Steps
+
+| Issue               | Strategy                         |
+|--------------------|----------------------------------|
+| Inconsistent Data  | Standardize values               |
+| Validation Errors  | Cross-check calculated vs stored |
+| Duplicates         | Match by key fields (e.g. CNIC)  |
+| Outliers / Noisy   | Define valid range; clean outliers |
+| Stale Data         | Use last updated date to filter  |
+
+---
+
+##  Final Thoughts
+
+Accurate and clean data is the foundation of any useful analysis or model.  
+Without cleaning, even the best model will fail.
+
+Next up: **Data Integration** 🔗  
+Until then, **Khuda Hafiz** — Duaon mein yaad rakhiye. 🌙
+
+
 
 
