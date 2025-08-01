@@ -165,11 +165,11 @@ Har step important hai:
 Jab aap yeh sab achi tarah seekh lein to aap **kisi bhi mushkil maslay ko data ki madad se solve kar sakte hain**.
 
 
-# 📚 Lecture 2: Understanding Types of Attributes (Data)
+#  Lecture 2: Understanding Types of Attributes (Data)
 
 ---
 
-## 📦 Data Object aur Uske Features
+##  Data Object aur Uske Features
 
 Data Science mein hum aise data ke sath kaam karte hain jo **table ki shakal** mein hota hai:
 
@@ -184,13 +184,13 @@ Agar logon ka data ho to:
 
 ---
 
-## 🧬 Attributes (Data ke Types)
+##  Attributes (Data ke Types)
 
 Data ke features alag alag qisam ke ho sakte hain:
 
 ---
 
-### 🔸 Nominal Attributes (Naam Wale)
+###  Nominal Attributes (Naam Wale)
 
 - Sirf naam ya label hotay hain  
 - Example: Hair Color → Black, Brown, Red  
@@ -199,7 +199,7 @@ Data ke features alag alag qisam ke ho sakte hain:
 
 ---
 
-### 🔸 Binary Attributes (2 Options Wale)
+###  Binary Attributes (2 Options Wale)
 
 - Sirf do options hotay hain  
 - Example: Male/Female, Smoker/Non-Smoker  
@@ -209,13 +209,13 @@ Data ke features alag alag qisam ke ho sakte hain:
 
 ---
 
-## 🛠️ Data Ka Tayyari Ka Amal (Data Preparation)
+##  Data Ka Tayyari Ka Amal (Data Preparation)
 
 Data analysis shuru karne se pehle 2 kaam zaroori hain:
 
 ---
 
-### 🔍 1. Data Samajhna (EDA - Exploratory Data Analysis)
+###  1. Data Samajhna (EDA - Exploratory Data Analysis)
 
 - Data kis type ka hai?  
 - Missing values hain?  
@@ -224,7 +224,7 @@ Data analysis shuru karne se pehle 2 kaam zaroori hain:
 
 ---
 
-### 🧹 2. Data Saaf Karna (Cleaning)
+###  2. Data Saaf Karna (Cleaning)
 
 - Galat/missing data theek karna  
 - Values ko standard form mein lana  
@@ -232,7 +232,7 @@ Data analysis shuru karne se pehle 2 kaam zaroori hain:
 
 ---
 
-## 🧱 Attributes ko Samajhna
+##  Attributes ko Samajhna
 
 Data ke **columns = attributes/features/variables** — ye teenon lafz aik hi cheez ke liye use hote hain.
 
@@ -247,7 +247,7 @@ Yeh sab us shakhs ke attributes hain. Puri row milke **data object** kehlati hai
 
 ---
 
-## 🔚 Aakhri Baat (Final Thoughts)
+##  Aakhri Baat (Final Thoughts)
 
 Data Science mein kaam karne ke liye zaroori hai:
 
@@ -261,11 +261,11 @@ Agar yeh steps samajh lein to kisi bhi data se useful insights nikaale ja sakte 
 
 ---
 
-# 🧩 Types of Attributes
+#  Types of Attributes
 
 ---
 
-## 🟡 Nominal Attributes (Naam Wale Features)
+##  Nominal Attributes (Naam Wale Features)
 
 **Kya hota hai?**  
 Sirf naam ya label batate hain — inka koi order nahi hota
@@ -280,7 +280,7 @@ Sirf naam ya label batate hain — inka koi order nahi hota
 
 ---
 
-## ⚫ Binary Attributes (2 Options Wale)
+##  Binary Attributes (2 Options Wale)
 
 **Kya hota hai?**  
 Sirf do hi values hoti hain
@@ -298,7 +298,7 @@ Sirf do hi values hoti hain
 
 ---
 
-## 🟠 Ordinal Attributes (Order Wale)
+##  Ordinal Attributes (Order Wale)
 
 **Kya hota hai?**  
 Values ka order hota hai, lekin exact difference nahi hota
@@ -314,11 +314,11 @@ Values ka order hota hai, lekin exact difference nahi hota
 
 ---
 
-## 🔵 Numeric Attributes (Number Wale)
+##  Numeric Attributes (Number Wale)
 
 **Yeh wo features hain jo numbers mein hote hain** — math ke formulas apply hote hain.
 
-### ➤ Interval-Scaled
+###  Interval-Scaled
 
 **Example:** Temperature (e.g., 20°C, 30°C)
 
@@ -328,7 +328,7 @@ Values ka order hota hai, lekin exact difference nahi hota
 - Gaps barabar hote hain  
 - Add/subtract meaningful hote hain
 
-### ➤ Ratio-Scaled
+###  Ratio-Scaled
 
 **Example:** Height, Weight, Experience
 
@@ -340,21 +340,21 @@ Values ka order hota hai, lekin exact difference nahi hota
 
 ---
 
-## 🔢 Discrete vs Continuous Attributes
+##  Discrete vs Continuous Attributes
 
-### ➤ Discrete:
+###  Discrete:
 
 - Sirf **whole numbers** hote hain  
 - Example: Number of children → 1, 2, 3…
 
-### ➤ Continuous:
+###  Continuous:
 
 - **Decimal values** bhi ho sakti hain  
 - Example: Height → 5.6, Weight → 60.3
 
 ---
 
-## ✅ Final Thoughts
+##  Final Thoughts
 
 Data Science mein kaam karte waqt samajhna zaroori hai:
 
