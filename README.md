@@ -1147,9 +1147,7 @@ To dosto, is puri discussion mein humne yeh seekha:
 Ye sab cheezein milke data ko accurate, saaf aur useful banaati hain — jisse hum real world problems  
 ko solve kar sakte hain.  
 
-# Skewness – Kya Hoti He
-
-## Skewness Kya Hoti Hai?
+# Skewness Kya Hoti Hai?
 Skewness ka matlab hai ke data ka shape barabar nahi hota – yani ke left aur right side ek jaise nahi lagtay (mirror image nahi hotay).
 
 ### Teen Qisam ki Skewness Hoti Hai:
@@ -1157,7 +1155,88 @@ Skewness ka matlab hai ke data ka shape barabar nahi hota – yani ke left aur r
 2. **Left Skewed (Negative Skew)** – Jab graph ka left side (baen taraf) lamba hota hai.
 3. **Zero Skewness** – Jab graph ka shape bilkul barabar ho, left aur right side dono same hoon.
 
+<img width="1428" height="386" alt="Skewness-of-a-distribution" src="https://github.com/user-attachments/assets/6d893f49-1c0b-49d7-8774-bc246a6917fa" />
+
+---
+
+## 1. Zero Skew
+Jab data symmetrical ho – yaani left aur right side ek jaise hoon – to isay zero skew kehte hain.
+
+<img width="1276" height="962" alt="Zero-skew-symmetrical" src="https://github.com/user-attachments/assets/aba8008c-409f-45c2-9205-92f8d17300a1" />
+
+### Asaan alfaaz mein:
+- Jab distribution ka shape dono taraf barabar ho, to skew zero hoti hai.
+- Normal distribution (bell shape) zero skew hoti hai.
+- Uniform ya bimodal distributions bhi zero skew ho sakti hain.
+
+### Kaise pata chale?
+Histogram banao – agar shape dono taraf se same lage to skew zero hai.
+
+**Example**: Agar chicks ka average weight 261.3g aur median 258g hai, to ye qareeb qareeb same hain → skew almost zero.
+
+> Real-life data mein halki-phulki skewness normal hoti hai. Agar shape mostly barabar ho to practically usay zero skew samjha jata hai.
+
+**Bottom Line**: Jab mean ≈ median ho to data almost zero skew hota hai.
+
+---
+
+## 2. Right Skew (Positive Skew)
+Right-skewed ka matlab hota hai ke graph ka right side lamba ho. Yani kuch bohat zyada values hoti hain jo rarely aati hain.
+
+<img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/738187e0-f0ef-4961-b948-4b0eff297d8c" />
+
+### Sochne ka tareeqa:
+- **Tail** ka matlab hota hai graph ka lamba patla hissa.
+- Jab tail right side pe lambi ho to data right-skewed hota hai.
+
+**Example**: Sunspots (suraj pe daag) ke yearly data ka graph right-skewed hai:
+- Right side lamba hai
+- Kabhi kabhi zyada sunspots hote hain, is wajah se tail lambi hai
+
+### Mean aur Median ka Relation:
+- **Right Skew Rule**: Mean > Median
+- Example:
+  - Mean = 48.6
+  - Median = 39
+  → Mean zyada hai → right skewed distribution
+
+**Bottom Line**: Right skew ka matlab hai kuch bohat bade numbers mean ko upar kheench lete hain → shape right taraf lamba hota hai.
+
+## 3. Left Skew (Negative Skew)
+Left-skewed distribution mein graph ka left side lamba hota hai.
+
+<img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/4d5b0e94-a588-430a-91a4-464c2c25e0e3" />
+
+### Matlab:
+- Zyada logon ke numbers achay hote hain
+- Sirf kuch log hote hain jin ke marks ya values bohat kam hoti hain
+- Wo chhoti values left side pe tail bana deti hain
+
+**Example**: Zoology test scores ka histogram:
+- Zyada students ke achay marks hain
+- Sirf kuch students ne bohat kam marks liye
+- Graph ka left side lamba hai → left-skewed distribution
+
+### Mean aur Median ka Relation:
+- **Left Skew Rule**: Mean < Median
+- Example:
+  - Mean = 53.7
+  - Median = 55
+  → Mean chhota hai → left skewed distribution
+
+**Bottom Line**: Jab kuch values bohat kam hoti hain (left tail), wo mean ko neeche le jaati hain, is liye mean < median hota hai.
+
+---
+
+## Summary:
+| Skew Type         | Tail Direction | Mean vs Median    |
+|-------------------|----------------|-------------------|
+| Zero Skew         | Symmetrical    | Mean ≈ Median     |
+| Right Skew        | Right Side     | Mean > Median     |
+| Left Skew         | Left Side      | Mean < Median     |
 
 
 ---
+
+
 
