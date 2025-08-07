@@ -1164,7 +1164,6 @@ Jab data symmetrical ho – yaani left aur right side ek jaise hoon – to isay 
 
 <img width="1276" height="962" alt="Zero-skew-symmetrical" src="https://github.com/user-attachments/assets/aba8008c-409f-45c2-9205-92f8d17300a1" />
 
-#  Zero Skewness Explained 
 
 ## Graph mein kya dikhaya gaya hai?
 
