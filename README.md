@@ -1147,7 +1147,17 @@ To dosto, is puri discussion mein humne yeh seekha:
 Ye sab cheezein milke data ko accurate, saaf aur useful banaati hain — jisse hum real world problems  
 ko solve kar sakte hain.  
 
-Agle lecture mein hum data integration ke baare mein baat karenge.  
-Tab tak khuda hafiz aur duaon mein yaad rakhiye.  
-InshaAllah phir mulaqat hogi.
+# Skewness – Kya Hoti He
+
+## Skewness Kya Hoti Hai?
+Skewness ka matlab hai ke data ka shape barabar nahi hota – yani ke left aur right side ek jaise nahi lagtay (mirror image nahi hotay).
+
+### Teen Qisam ki Skewness Hoti Hai:
+1. **Right Skewed (Positive Skew)** – Jab graph ka right side (daiin taraf) lamba hota hai.
+2. **Left Skewed (Negative Skew)** – Jab graph ka left side (baen taraf) lamba hota hai.
+3. **Zero Skewness** – Jab graph ka shape bilkul barabar ho, left aur right side dono same hoon.
+
+
+
+---
 
