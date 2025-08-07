@@ -1228,6 +1228,38 @@ Right-skewed ka matlab hota hai ke graph ka right side lamba ho. Yani kuch bohat
 
 <img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/738187e0-f0ef-4961-b948-4b0eff297d8c" />
 
+##  Graph mein kya dikhaya gaya hai?
+
+- **X-axis**: Har saal mein **Sunspots ki tadaad** (Number of sunspots per year)
+- **Y-axis**: **Frequency** (Yaani kitne saal mein woh sunspot count aaya)
+
+---
+
+## ☀Samajhne ka Asaan Tareeqa:
+
+Socho ke scientists har saal **sun ke upar dark spots** count karte hain (sunspots). Jab unhone 1749 se 1983 tak data collect kiya aur graph banaya, to:
+
+- **Zyada saal** aise thay jahan sunspots **kam the (0–60)**  
+- **Kuch saal** aise thay jahan sunspots **bahut zyada ho gaye (100+), lekin woh saal rare thay**
+
+---
+
+## Kya Dikh Raha Hai?
+
+- Graph ka **peak left side** pe hai (wahan data zyada hai)
+- **Right side pe ek lambi tail** hai (wahan kuch hi values hain lekin woh bohat zyada hain)
+- Iska matlab: **Zyada sunspots wali values rare hain**, lekin jab hoti hain to bohat high hoti hain
+- **Mean (average)** → right side chala jata hai  
+- **Median (middle value)** → mean se pehle hota hai
+
+---
+
+## Right Skewness Ka Rule:
+
+**Right skew (Positive Skew)** jab hota hai jab:
+
+
+
 ### Sochne ka tareeqa:
 - **Tail** ka matlab hota hai graph ka lamba patla hissa.
 - Jab tail right side pe lambi ho to data right-skewed hota hai.
