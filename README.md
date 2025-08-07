@@ -1164,6 +1164,50 @@ Jab data symmetrical ho – yaani left aur right side ek jaise hoon – to isay 
 
 <img width="1276" height="962" alt="Zero-skew-symmetrical" src="https://github.com/user-attachments/assets/aba8008c-409f-45c2-9205-92f8d17300a1" />
 
+# 🐥 Zero Skewness Explained 
+
+## 📊 Graph mein kya dikhaya gaya hai?
+
+**Middle graph** (Zero Skew) mein:
+
+- **X-axis**: Chick ka **weight** (wazan) hai  
+- **Y-axis**: **Frequency** hai — yaani kitne chicks ka woh wazan hai
+
+---
+
+## 🐥 Samajhne ka Asaan Tareeqa:
+
+Socho tumhare paas **100 chicks** hain, aur tum unka wazan measure kar rahe ho. Jab tum data ka graph banate ho to:
+
+- Zyada tar chicks ka wazan **beech mein hota hai** (e.g., 250–270 grams)
+- Kuch chicks ka wazan **thoda kam** hota hai (e.g., 230 grams)
+- Kuch chicks ka wazan **thoda zyada** hota hai (e.g., 290 grams)
+- Lekin dono sides (kam aur zyada wazan) **barabar** hain
+
+---
+
+## ✨ Iska Matlab:
+
+- Graph ka **center mein ek peak** hai (most chicks ka weight)
+- Left aur right **barabar taper ho rahe hain**
+- Koi lambi tail nahi hai kisi ek side pe
+- **Mean ≈ Median** (average aur beech wala number lagbhag same)
+
+---
+
+## 📌 Bottom Line (Layman Ki Zuban Mein):
+
+**Zero skewness ka matlab hai ke zyada tar chicks ka weight average ke aas paas hai.**
+
+- Kuch ka thoda kam
+- Kuch ka thoda zyada
+- **Lekin dono taraf ka data balance hai**
+
+Graph dono sides se ek jaisa dikhta hai, jaise **mirror image**.
+
+Yani data **bilkul theek balance** mein hai –  
+**na left ko jhukta hai, na right ko.**
+
 ### Asaan alfaaz mein:
 - Jab distribution ka shape dono taraf barabar ho, to skew zero hoti hai.
 - Normal distribution (bell shape) zero skew hoti hai.
