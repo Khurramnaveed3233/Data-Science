@@ -1164,9 +1164,9 @@ Jab data symmetrical ho – yaani left aur right side ek jaise hoon – to isay 
 
 <img width="1276" height="962" alt="Zero-skew-symmetrical" src="https://github.com/user-attachments/assets/aba8008c-409f-45c2-9205-92f8d17300a1" />
 
-# 🐥 Zero Skewness Explained 
+#  Zero Skewness Explained 
 
-## 📊 Graph mein kya dikhaya gaya hai?
+## Graph mein kya dikhaya gaya hai?
 
 **Middle graph** (Zero Skew) mein:
 
@@ -1175,7 +1175,7 @@ Jab data symmetrical ho – yaani left aur right side ek jaise hoon – to isay 
 
 ---
 
-## 🐥 Samajhne ka Asaan Tareeqa:
+## Samajhne ka Asaan Tareeqa:
 
 Socho tumhare paas **100 chicks** hain, aur tum unka wazan measure kar rahe ho. Jab tum data ka graph banate ho to:
 
@@ -1186,7 +1186,7 @@ Socho tumhare paas **100 chicks** hain, aur tum unka wazan measure kar rahe ho. 
 
 ---
 
-## ✨ Iska Matlab:
+## Iska Matlab:
 
 - Graph ka **center mein ek peak** hai (most chicks ka weight)
 - Left aur right **barabar taper ho rahe hain**
@@ -1195,7 +1195,7 @@ Socho tumhare paas **100 chicks** hain, aur tum unka wazan measure kar rahe ho. 
 
 ---
 
-## 📌 Bottom Line (Layman Ki Zuban Mein):
+## Bottom Line (Layman Ki Zuban Mein):
 
 **Zero skewness ka matlab hai ke zyada tar chicks ka weight average ke aas paas hai.**
 
