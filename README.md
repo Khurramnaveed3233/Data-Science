@@ -1226,7 +1226,8 @@ Histogram banao – agar shape dono taraf se same lage to skew zero hai.
 ## 2. Right Skew (Positive Skew)
 Right-skewed ka matlab hota hai ke graph ka right side lamba ho. Yani kuch bohat zyada values hoti hain jo rarely aati hain.
 
-<img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/738187e0-f0ef-4961-b948-4b0eff297d8c" />
+<img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/56247355-e9ec-48d4-bc9d-89eda4d5e4ba" />
+
 
 ##  Graph mein kya dikhaya gaya hai?
 
@@ -1280,7 +1281,8 @@ Socho ke scientists har saal **sun ke upar dark spots** count karte hain (sunspo
 ## 3. Left Skew (Negative Skew)
 Left-skewed distribution mein graph ka left side lamba hota hai.
 
-<img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/4d5b0e94-a588-430a-91a4-464c2c25e0e3" />
+<img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
+
 
 ### Matlab:
 - Zyada logon ke numbers achay hote hain
