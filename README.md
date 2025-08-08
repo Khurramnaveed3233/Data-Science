@@ -1307,6 +1307,43 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
 
+
+1. **Zyada data kahan hai?**  
+   Graph ki **right side (55–65)** par bars unchi hain → iska matlab wahan data zyada hai.
+
+2. **Kam data kahan hai?**  
+   Jaise-jaise **left side (30–45)** ki taraf jaate ho, bars chhoti hoti ja rahi hain → matlab wahan data kam hai.
+
+3. **Tail ka matlab**  
+   Tail woh patla aur lamba hissa hota hai jahan data bohot kam hota hai.  
+   Yahan tail **left side** par hai.
+
+4. **Naam ka rule**  
+   > "Jis side tail hoti hai, us side ka naam lagta hai."  
+   Yahan tail left me hai → **Left-skewed (Negative skew)**.
+
+5. **Extra Note – Mean aur Median ka signal**  
+   Left-skewed graph me **mean** aksar **median se chhota** hota hai, jaise yahan dikh raha hai.
+
+### Left-Skewed Graph Ko aur asani se smjhte hen 
+
+1. **Data ka zyada hissa**  
+   Graph ki **right side** (55–65) par bars unchi hain → matlab zyada logon ke marks yahan hain.
+
+2. **Data ka kam hissa**  
+   Graph ki **left side** (30–45) par bars chhoti hain → matlab kam logon ke marks yahan hain.
+
+3. **Tail ka matlab**  
+   Tail = Graph ka lamba patla hissa jahan data bohot kam hota hai.  
+   Yahan tail **left side** par hai.
+
+4. **Naam ka rule**  
+   > "Jis side tail hoti hai, usi side ka naam hota hai."  
+   Tail left me → **Left-skewed**.
+
+5. **Extra hint**  
+   Left-skew me **mean** (average) hamesha **median** se thoda pehle hota hai.
+
 ###  Graph Mein Kya Dikh Raha Hai?
 
 - Ye graph students ke **zoology test scores** ko dikhata hai.
