@@ -1228,6 +1228,31 @@ Right-skewed ka matlab hota hai ke graph ka right side lamba ho. Yani kuch bohat
 
 <img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/56247355-e9ec-48d4-bc9d-89eda4d5e4ba" />
 
+Dekho, graph mein **left side (0–50)** par bohot saara data ikattha hai — bars unchi hain.  
+Phir jaise-jaise **right side (100–200)** ki taraf jaate ho, bars chhoti hoti ja rahi hain, matlab wahan data kam hai.  
+
+**Tail ka matlab**: Graph ka woh patla lamba hissa jahan thoda sa data hota hai.  
+Yahan wo patla hissa **right side** par hai, is liye isay **right-skewed** kehte hain.  
+
+ **Easy yaad rakhne ka tareeqa**:  
+> "Jis side tail hoti hai, us side ka naam lagta hai."  
+> Yahan tail right me → **Right-skewed**.
+
+### Right-Skewed Graph Ko Simple Tarike Se Samajhna
+
+1. **Zyada data kahan hai?**  
+   Graph ki **left side (0–50)** par bars unchi hain → iska matlab wahan data zyada hai.
+
+2. **Kam data kahan hai?**  
+   Jaise-jaise **right side (100–200)** ki taraf jaate ho, bars chhoti hoti ja rahi hain → matlab wahan data kam hai.
+
+3. **Tail ka matlab**  
+   Tail woh patla aur lamba hissa hota hai jahan data bohot kam hota hai.  
+   Yahan tail **right side** par hai.
+
+4. **Naam ka rule**  
+   > "Jis side tail hoti hai, us side ka naam lagta hai."  
+   Yahan tail right me hai → **Right-skewed**.
 
 ##  Graph mein kya dikhaya gaya hai?
 
@@ -1259,8 +1284,6 @@ Socho ke scientists har saal **sun ke upar dark spots** count karte hain (sunspo
 
 **Right skew (Positive Skew)** jab hota hai jab:
 
-
-
 ### Sochne ka tareeqa:
 - **Tail** ka matlab hota hai graph ka lamba patla hissa.
 - Jab tail right side pe lambi ho to data right-skewed hota hai.
@@ -1279,6 +1302,7 @@ Socho ke scientists har saal **sun ke upar dark spots** count karte hain (sunspo
 **Bottom Line**: Right skew ka matlab hai kuch bohat bade numbers mean ko upar kheench lete hain → shape right taraf lamba hota hai.
 
 ## 3. Left Skew (Negative Skew)
+
 Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
