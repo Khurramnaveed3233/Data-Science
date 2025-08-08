@@ -1283,6 +1283,59 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
 
+## 📉 Left Skewness (Negative Skewness) – Asan Lafzon Mein Samjha Hua
+
+### 📷 Graph Mein Kya Dikh Raha Hai?
+
+- Ye graph students ke **zoology test scores** ko dikhata hai.
+- Zyada students ne **50 se 65 ke darmiyan** marks liye hain.
+- Kuch students ne **bohot kam marks** liye (jaise 30–40 ke darmiyan).
+
+---
+
+### 🧠 Left Skewness Kya Hoti Hai?
+
+- Jab **zyada log ache marks lein**, lekin **kuch log bohot kam marks lein**,  
+  to graph ka **tail ya lambi line left side** (kam marks) ki taraf chali jati hai.
+- Isko **left skewed** ya **negative skewed** kehte hain.
+
+---
+
+### 🧮 Mean aur Median Ka Farq:
+
+- **Mean** = sab scores ka average  
+- **Median** = beech wala score
+
+**Left skewed distribution mein:**
+- **Mean (average)** neeche chala jata hai (kam ho jata hai),
+- **Median** us se zyada hota hai.
+
+_Is image mein bhi yehi ho raha hai:_
+- **Mean** left side pe hai
+- **Median** thoda right side pe hai
+
+---
+
+### 🔁 Ek Asaan Example:
+
+Sochiye 10 students ne test diya:
+
+30, 35, 50, 55, 56, 58, 59, 60, 62, 64
+
+
+- Zyada students ne **55–65** ke darmiyan score kiya.
+- Sirf 2 students ne **bohot kam** score kiya (30, 35)
+- Is wajah se **average (mean) neeche** chala gaya
+
+➡️ **Yahi hoti hai left skewness**
+
+---
+
+### ✅ Summary
+
+- **Tail** (graph ki lambi line) **left** side pe hoti hai.
+- **Mean < Median**
+- Aise distribution ko **left skewed** ya **negative skewed** kehte hain.
 
 ### Matlab:
 - Zyada logon ke numbers achay hote hain
