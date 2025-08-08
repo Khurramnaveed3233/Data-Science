@@ -1307,7 +1307,7 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
 
-## Left-Skewed (Negative Skew) Graph – Bilkul Simple Aur Detail Se
+## Left-Skewed (Negative Skew) ko graph se smajhte hen 
 
 ---
 
