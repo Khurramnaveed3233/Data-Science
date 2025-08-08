@@ -1228,78 +1228,74 @@ Right-skewed ka matlab hota hai ke graph ka right side lamba ho. Yani kuch bohat
 
 <img width="1277" height="962" alt="Right-skew-Positive-skew" src="https://github.com/user-attachments/assets/56247355-e9ec-48d4-bc9d-89eda4d5e4ba" />
 
-Dekho, graph mein **left side (0–50)** par bohot saara data ikattha hai — bars unchi hain.  
-Phir jaise-jaise **right side (100–200)** ki taraf jaate ho, bars chhoti hoti ja rahi hain, matlab wahan data kam hai.  
-
-**Tail ka matlab**: Graph ka woh patla lamba hissa jahan thoda sa data hota hai.  
-Yahan wo patla hissa **right side** par hai, is liye isay **right-skewed** kehte hain.  
-
- **Easy yaad rakhne ka tareeqa**:  
-> "Jis side tail hoti hai, us side ka naam lagta hai."  
-> Yahan tail right me → **Right-skewed**.
-
-### Right-Skewed Graph Ko Simple Tarike Se Samajhna
-
-1. **Zyada data kahan hai?**  
-   Graph ki **left side (0–50)** par bars unchi hain → iska matlab wahan data zyada hai.
-
-2. **Kam data kahan hai?**  
-   Jaise-jaise **right side (100–200)** ki taraf jaate ho, bars chhoti hoti ja rahi hain → matlab wahan data kam hai.
-
-3. **Tail ka matlab**  
-   Tail woh patla aur lamba hissa hota hai jahan data bohot kam hota hai.  
-   Yahan tail **right side** par hai.
-
-4. **Naam ka rule**  
-   > "Jis side tail hoti hai, us side ka naam lagta hai."  
-   Yahan tail right me hai → **Right-skewed**.
-
-##  Graph mein kya dikhaya gaya hai?
-
-- **X-axis**: Har saal mein **Sunspots ki tadaad** (Number of sunspots per year)
-- **Y-axis**: **Frequency** (Yaani kitne saal mein woh sunspot count aaya)
+## Right-Skewed (Positive Skew) Graph – ko smjhate hen 
 
 ---
 
-## ☀Samajhne ka Asaan Tareeqa:
-
-Socho ke scientists har saal **sun ke upar dark spots** count karte hain (sunspots). Jab unhone 1749 se 1983 tak data collect kiya aur graph banaya, to:
-
-- **Zyada saal** aise thay jahan sunspots **kam the (0–60)**  
-- **Kuch saal** aise thay jahan sunspots **bahut zyada ho gaye (100+), lekin woh saal rare thay**
+### 1. Zyada data kahan hai?
+Graph ki **left side (0–50)** par bars unchi hain.  
+Iska matlab: zyada saal aise thay jahan sunspots kam the.
 
 ---
 
-## Kya Dikh Raha Hai?
+### 2. Kam data kahan hai?
+Jaise-jaise **right side (100–200)** ki taraf jaate ho, bars chhoti hoti ja rahi hain.  
+Matlab: bohot kam saal aise thay jahan sunspots bohot zyada ho gaye.
 
-- Graph ka **peak left side** pe hai (wahan data zyada hai)
-- **Right side pe ek lambi tail** hai (wahan kuch hi values hain lekin woh bohat zyada hain)
-- Iska matlab: **Zyada sunspots wali values rare hain**, lekin jab hoti hain to bohat high hoti hain
-- **Mean (average)** → right side chala jata hai  
+---
+
+### 3. Tail ka matlab
+**Tail** ka matlab hai graph ka lamba, patla hissa jahan data bohot kam hota hai.  
+Yahan tail **right side** par hai.
+
+---
+
+### 4. Naam ka rule
+> "Jis side tail hoti hai, usi side ka naam hota hai."
+
+Yahan tail right me hai → **Right-skewed** (ya Positive skew).
+
+---
+
+## Graph mein kya dikhaya gaya hai?
+- **X-axis** = Har saal ke sunspots ka count (0 se 200 tak)
+- **Y-axis** = Frequency (kitne saal me wo count aaya)
+
+---
+
+## Asaan samajhne ka tareeqa:
+Socho scientists har saal **sun ke dark spots** (sunspots) gin rahe hain.
+
+- **Zyada saal**: sunspots kam (0–60)
+- **Kuch saal**: sunspots bohot zyada (100+), lekin aise saal rare hain
+
+---
+
+## Kya seekhne ko milta hai?
+- Peak (sabse uncha hissa) **left side** pe hai → wahan data zyada hai
+- **Right side** me lambi tail → kuch values bohot badi hain, lekin unki frequency kam hai
+- **Mean (average)** → tail ki taraf kheench jata hai (right me chala jata hai)
 - **Median (middle value)** → mean se pehle hota hai
 
 ---
 
-## Right Skewness Ka Rule:
+## Right Skewness ka easy formula:
+- **Right skew** tab hota hai jab kuch bohot badi values hoti hain jo average ko right kheench deti hain
+- **Rule**: Mean > Median
 
-**Right skew (Positive Skew)** jab hota hai jab:
+**Example is graph se**:
+- Mean = 48.6
+- Median = 39
+- Mean zyada hai → Right-skewed
 
-### Sochne ka tareeqa:
-- **Tail** ka matlab hota hai graph ka lamba patla hissa.
-- Jab tail right side pe lambi ho to data right-skewed hota hai.
+---
 
-**Example**: Sunspots (suraj pe daag) ke yearly data ka graph right-skewed hai:
-- Right side lamba hai
-- Kabhi kabhi zyada sunspots hote hain, is wajah se tail lambi hai
+## Bottom Line:
+Right skew ka matlab:
+- Zyada data chhoti values ke paas hota hai
+- Kuch badi values right side me tail bana deti hain
+- Ye badi values average ko right kheench deti hain
 
-### Mean aur Median ka Relation:
-- **Right Skew Rule**: Mean > Median
-- Example:
-  - Mean = 48.6
-  - Median = 39
-  → Mean zyada hai → right skewed distribution
-
-**Bottom Line**: Right skew ka matlab hai kuch bohat bade numbers mean ko upar kheench lete hain → shape right taraf lamba hota hai.
 
 ## 3. Left Skew (Negative Skew)
 
