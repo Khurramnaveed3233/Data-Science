@@ -1283,9 +1283,7 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
 
-## 📉 Left Skewness (Negative Skewness) – Asan Lafzon Mein Samjha Hua
-
-### 📷 Graph Mein Kya Dikh Raha Hai?
+###  Graph Mein Kya Dikh Raha Hai?
 
 - Ye graph students ke **zoology test scores** ko dikhata hai.
 - Zyada students ne **50 se 65 ke darmiyan** marks liye hain.
@@ -1293,7 +1291,7 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 ---
 
-### 🧠 Left Skewness Kya Hoti Hai?
+###  Left Skewness Kya Hoti Hai?
 
 - Jab **zyada log ache marks lein**, lekin **kuch log bohot kam marks lein**,  
   to graph ka **tail ya lambi line left side** (kam marks) ki taraf chali jati hai.
@@ -1301,7 +1299,7 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 ---
 
-### 🧮 Mean aur Median Ka Farq:
+###  Mean aur Median Ka Farq:
 
 - **Mean** = sab scores ka average  
 - **Median** = beech wala score
@@ -1316,7 +1314,7 @@ _Is image mein bhi yehi ho raha hai:_
 
 ---
 
-### 🔁 Ek Asaan Example:
+###  Ek Asaan Example:
 
 Sochiye 10 students ne test diya:
 
@@ -1327,11 +1325,11 @@ Sochiye 10 students ne test diya:
 - Sirf 2 students ne **bohot kam** score kiya (30, 35)
 - Is wajah se **average (mean) neeche** chala gaya
 
-➡️ **Yahi hoti hai left skewness**
+➡ **Yahi hoti hai left skewness**
 
 ---
 
-### ✅ Summary
+###  Summary
 
 - **Tail** (graph ki lambi line) **left** side pe hoti hai.
 - **Mean < Median**
