@@ -1307,113 +1307,84 @@ Left-skewed distribution mein graph ka left side lamba hota hai.
 
 <img width="1276" height="962" alt="Left-skew-Negative-skew" src="https://github.com/user-attachments/assets/019204ed-555d-4c4a-b1cf-2aa79ffb802b" />
 
-
-1. **Zyada data kahan hai?**  
-   Graph ki **right side (55–65)** par bars unchi hain → iska matlab wahan data zyada hai.
-
-2. **Kam data kahan hai?**  
-   Jaise-jaise **left side (30–45)** ki taraf jaate ho, bars chhoti hoti ja rahi hain → matlab wahan data kam hai.
-
-3. **Tail ka matlab**  
-   Tail woh patla aur lamba hissa hota hai jahan data bohot kam hota hai.  
-   Yahan tail **left side** par hai.
-
-4. **Naam ka rule**  
-   > "Jis side tail hoti hai, us side ka naam lagta hai."  
-   Yahan tail left me hai → **Left-skewed (Negative skew)**.
-
-5. **Extra Note – Mean aur Median ka signal**  
-   Left-skewed graph me **mean** aksar **median se chhota** hota hai, jaise yahan dikh raha hai.
-
-### Left-Skewed Graph Ko aur asani se smjhte hen 
-
-1. **Data ka zyada hissa**  
-   Graph ki **right side** (55–65) par bars unchi hain → matlab zyada logon ke marks yahan hain.
-
-2. **Data ka kam hissa**  
-   Graph ki **left side** (30–45) par bars chhoti hain → matlab kam logon ke marks yahan hain.
-
-3. **Tail ka matlab**  
-   Tail = Graph ka lamba patla hissa jahan data bohot kam hota hai.  
-   Yahan tail **left side** par hai.
-
-4. **Naam ka rule**  
-   > "Jis side tail hoti hai, usi side ka naam hota hai."  
-   Tail left me → **Left-skewed**.
-
-5. **Extra hint**  
-   Left-skew me **mean** (average) hamesha **median** se thoda pehle hota hai.
-
-###  Graph Mein Kya Dikh Raha Hai?
-
-- Ye graph students ke **zoology test scores** ko dikhata hai.
-- Zyada students ne **50 se 65 ke darmiyan** marks liye hain.
-- Kuch students ne **bohot kam marks** liye (jaise 30–40 ke darmiyan).
+## Left-Skewed (Negative Skew) Graph – Bilkul Simple Aur Detail Se
 
 ---
 
-###  Left Skewness Kya Hoti Hai?
-
-- Jab **zyada log ache marks lein**, lekin **kuch log bohot kam marks lein**,  
-  to graph ka **tail ya lambi line left side** (kam marks) ki taraf chali jati hai.
-- Isko **left skewed** ya **negative skewed** kehte hain.
+### 1. Zyada data kahan hai?
+Graph ki **right side (55–65)** par bars unchi hain.  
+Iska matlab: zyada logon (students) ke marks isi range me aaye hain.
 
 ---
 
-###  Mean aur Median Ka Farq:
-
-- **Mean** = sab scores ka average  
-- **Median** = beech wala score
-
-**Left skewed distribution mein:**
-- **Mean (average)** neeche chala jata hai (kam ho jata hai),
-- **Median** us se zyada hota hai.
-
-_Is image mein bhi yehi ho raha hai:_
-- **Mean** left side pe hai
-- **Median** thoda right side pe hai
+### 2. Kam data kahan hai?
+Graph ki **left side (30–45)** par bars chhoti hain.  
+Iska matlab: kam logon ke marks is range me aaye hain.
 
 ---
 
-###  Ek Asaan Example:
-
-Sochiye 10 students ne test diya:
-
-30, 35, 50, 55, 56, 58, 59, 60, 62, 64
-
-
-- Zyada students ne **55–65** ke darmiyan score kiya.
-- Sirf 2 students ne **bohot kam** score kiya (30, 35)
-- Is wajah se **average (mean) neeche** chala gaya
-
-➡ **Yahi hoti hai left skewness**
+### 3. Tail ka matlab
+**Tail** ka matlab hai graph ka lamba, patla hissa jahan data bohot kam hota hai.  
+Yahan tail **left side** par hai (kyunki wahan thodi values hain jo bohot kam marks ko dikhati hain).
 
 ---
 
-###  Summary
+### 4. Naam ka rule
+> "Jis side tail hoti hai, usi side ka naam hota hai."
 
-- **Tail** (graph ki lambi line) **left** side pe hoti hai.
-- **Mean < Median**
-- Aise distribution ko **left skewed** ya **negative skewed** kehte hain.
+Yahan tail left me hai → **Left-skewed** (ya negative skew).
 
-### Matlab:
-- Zyada logon ke numbers achay hote hain
-- Sirf kuch log hote hain jin ke marks ya values bohat kam hoti hain
-- Wo chhoti values left side pe tail bana deti hain
+---
 
-**Example**: Zoology test scores ka histogram:
-- Zyada students ke achay marks hain
-- Sirf kuch students ne bohat kam marks liye
-- Graph ka left side lamba hai → left-skewed distribution
+### 5. Mean aur Median ka signal
+- **Mean** (average) = sab numbers ka total ÷ total numbers  
+- **Median** = beech wala number jab sab numbers chhote se bade order me likhe jayein  
 
-### Mean aur Median ka Relation:
-- **Left Skew Rule**: Mean < Median
-- Example:
-  - Mean = 53.7
-  - Median = 55
-  → Mean chhota hai → left skewed distribution
+Left-skewed distribution me:
+- **Mean** hamesha **Median** se chhota hota hai  
+- Is graph me bhi mean thoda left (kam values) ki taraf hai aur median right me.
 
-**Bottom Line**: Jab kuch values bohat kam hoti hain (left tail), wo mean ko neeche le jaati hain, is liye mean < median hota hai.
+---
+
+## Graph se kya samajh aa raha hai?
+- Ye graph students ke **zoology test scores** dikhata hai.  
+- Zyada students ke marks **50–65** ke beech me hain.  
+- Kuch students ne bohot kam marks liye (30–40 ke beech).
+
+---
+
+## Left Skewness ka matlab
+Jab:
+- Zyada log ke scores high ho (achhe marks),
+- Lekin kuch log ke scores bohot kam ho,
+
+To graph ka **tail left side** pe chala jata hai (kam marks ki taraf).  
+Isay **Left-skewed** kehte hain.
+
+---
+
+## Asaan example
+Socho 10 students ne ye marks liye:  
+`30, 35, 50, 55, 56, 58, 59, 60, 62, 64`
+
+- Zyada students ke marks **55–65** ke beech me hain.  
+- Sirf 2 students ke marks bohot kam hain (30 aur 35).  
+- Ye do chhoti values tail bana rahi hain left side me.  
+- In chhoti values ki wajah se **Mean** neeche aa jata hai.
+
+---
+
+## Summary
+- **Tail** left side me hoti hai.  
+- **Mean < Median** hota hai.  
+- Zyada values high hoti hain, sirf kuch bohot chhoti hoti hain.  
+- Isay **Left-skewed (Negative skew)** distribution kehte hain.
+
+---
+
+**Rule yaad rakhne ka:**
+> "Jis side tail hoti hai, wahi iska naam hota hai."
+
 
 ---
 
